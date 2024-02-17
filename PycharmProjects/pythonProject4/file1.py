@@ -25,7 +25,7 @@ def print_last_5_executed_operations(operations_data):
         print(f"{date} {description}")
         print(f"{source} -> {destination}")
         print(f"{amount} {currency}")
-        print("-" * 40)  # Добавляем разделительную линию
+        print(" " * 40)  # Добавляем разделительную линию
 
 if __name__ == "__main__":
     operations_data = load_operations('operations.json')
